@@ -50,6 +50,11 @@ Realiza las actividades descritas a continuación.
 Inicializa un proyecto de node considerando los siguientes requerimientos:
 * Inicializa npm `npm init`
 * Instala TypeScript como dependencia de desarrollo `npm install typescript --save-dev`
+
+* Verifica que `package.json` en la sección `scripts`, cuente con los siguientes:
+  * `"tsc": "tsc"`
+  * `"tsc:w: "tsc --watch"`
+
 * Inicializa TypeScript y genera su archivo de configuración de TypeScript `npm run tsc -- --init`
 * Instala WebPack como dependencia de desarrollo `npm install --save-dev webpack`
 * Instala el CLI de WebPack como dependencia de desarrollo `npm install --save-dev webpack-cli`
@@ -85,9 +90,6 @@ Inicializa un proyecto de node considerando los siguientes requerimientos:
   * "outDir": "./dist" 
 
 
-Verifica que `package.json` en la sección `scripts`, cuente con los siguientes:
-* `"tsc": "tsc"`
-* `"tsc:w: "tsc --watch"`
 
 # HTML
 Implementa los siguientes requerimientos en la página `./index.html`:
